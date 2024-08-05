@@ -1,0 +1,1 @@
+# Golang-REST-API-structure
