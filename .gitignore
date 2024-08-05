@@ -1,0 +1,57 @@
+# build
+build
+!./build
+dist
+dist/
+_dist/
+
+# env files
+.env
+.env.prod
+.env.production
+.env.dev
+.env.development
+.env.test
+.lenv
+*.env
+
+# dependencies
+node_modules/
+pkg/
+.venv/
+venv/
+
+
+HELP.md
+target/
+!sdk_server/.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+sdk_server/.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
